@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Chivo|Gothic+A1|Hind+Guntur|Istok+Web|M+PLUS+1p|Pathway+Gothic+One|Sacramento|Yantramanav&display=swap');
+
+*,
+*::before,
+*::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: inherit;
+}
+
+:root {
+ --m-spring-bud: #CBE896;
+ --white: #FFFFFC;
+ --black-shadows: #BEB7A4;
+ --pumpkin: #FF7F11;
+ --red-ryb: #FF1B1C;
+ --queen-pink: #F1C8DB;
+ --opera-mauve: #B88C9E;
+ --wenge: #704C5E;
+ --spanish-grey: #88A09E;
+ --winter-green-dream: #558B6E;
+ --oxford-blue: #000586;
+ --text-h2: rgba(68,68,68, 1);
+ --text-h3: rgba(118,118,118, 1);
+ --text-p: rgba(136,136,136, 1);
+ --text-p-hover: rgb(12, 127, 242, 1);
+ --pathway-gothic: 'Pathway Gothic One', sans-serif;
+ --barlow-semi: 'Barlow Semi Condensed', sans-serif;
+ --istok-web: 'Istok Web', sans-serif;
+ --m-plus-1: 'M PLUS 1p', sans-serif;
+ --sacremento: 'Sacramento', cursive;
+ --chivo: 'Chivo', sans-serif;
+ --yantramanav: 'Yantramanav', sans-serif;
+ --hind-guntur: 'Hind Guntur', sans-serif;
+ --gothic-a1: 'Gothic A1', sans-serif;
+}
+
+/* Universal Styles */
+
+html {
+ font-size: 10px;
+ font-family: (--yantramanav), sans-serif;
+ box-sizing: border-box;
+}
+
+body {
+ background-color: #fff;
+}
+
+p {
+ font-size: 1.6rem;
+}
+
+a {
+ text-decoration: none;
+}
+
+ul {
+ list-style: none;
+}
+
+img {
+ width: 100%;
+ max-width: 100%;
+ height: auto;
+}
+
+.btn {
+ padding: .7rem 1rem;
+ background-color: var(--oxford-blue);
+ color: #fff;
+ text-align: center;
+ font-size: .9rem;
+ display: inline-block;
+ border-radius: 5px;
+ transition: background-color 200ms ease;
+}
+
+.btn:hover {
+ background-color: rgba(0,5,134,0.8);
+}
+
+/* Grid Container */
+
+
+
+/* Header & Nav */
+
+.nav__brand {
+ float: left;
+ width: 15rem;
+ margin: 1rem 0;
+}
